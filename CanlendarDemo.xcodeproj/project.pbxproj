@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		71504022192B4C7600AB1917 /* MyCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 71504021192B4C7600AB1917 /* MyCalendar.m */; };
+		715EEEE5192063900019E0D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 715EEEE4192063900019E0D8 /* Foundation.framework */; };
+		715EEEE7192063900019E0D8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 715EEEE6192063900019E0D8 /* CoreGraphics.framework */; };
+		715EEEE9192063900019E0D8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 715EEEE8192063900019E0D8 /* UIKit.framework */; };
+		715EEEEF192063900019E0D8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 715EEEED192063900019E0D8 /* InfoPlist.strings */; };
+		715EEEF1192063900019E0D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 715EEEF0192063900019E0D8 /* main.m */; };
+		715EEEF5192063900019E0D8 /* MyTestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 715EEEF4192063900019E0D8 /* MyTestAppDelegate.m */; };
+		715EEEF8192063900019E0D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 715EEEF6192063900019E0D8 /* Main.storyboard */; };
+		715EEEFD192063900019E0D8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 715EEEFC192063900019E0D8 /* Images.xcassets */; };
+		715EEF04192063900019E0D8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 715EEF03192063900019E0D8 /* XCTest.framework */; };
+		715EEF05192063900019E0D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 715EEEE4192063900019E0D8 /* Foundation.framework */; };
+		715EEF06192063900019E0D8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 715EEEE8192063900019E0D8 /* UIKit.framework */; };
+		715EEF0E192063900019E0D8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 715EEF0C192063900019E0D8 /* InfoPlist.strings */; };
+		715EEF10192063900019E0D8 /* CanlendarDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 715EEF0F192063900019E0D8 /* CanlendarDemoTests.m */; };
+		715EEF1C192064510019E0D8 /* CanlendarIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = 715EEF1B192064510019E0D8 /* CanlendarIndex.m */; };
+		71CF731F192CC70F000FDEA0 /* NSDate+String.m in Sources */ = {isa = PBXBuildFile; fileRef = 71CF731E192CC70F000FDEA0 /* NSDate+String.m */; };
+		8E9D989385014F61BEA1647C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A351DABC165D4B409216984D /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		715EEF07192063900019E0D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 715EEED9192063900019E0D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 715EEEE0192063900019E0D8;
+			remoteInfo = CanlendarDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		45D0F0C7E9BF4EE58F8BAE72 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		71504020192B4C7600AB1917 /* MyCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCalendar.h; sourceTree = "<group>"; };
+		71504021192B4C7600AB1917 /* MyCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCalendar.m; sourceTree = "<group>"; };
+		715EEEE1192063900019E0D8 /* CanlendarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CanlendarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		715EEEE4192063900019E0D8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		715EEEE6192063900019E0D8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		715EEEE8192063900019E0D8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		715EEEEC192063900019E0D8 /* CanlendarDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CanlendarDemo-Info.plist"; sourceTree = "<group>"; };
+		715EEEEE192063900019E0D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		715EEEF0192063900019E0D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		715EEEF2192063900019E0D8 /* CanlendarDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CanlendarDemo-Prefix.pch"; sourceTree = "<group>"; };
+		715EEEF3192063900019E0D8 /* MyTestAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTestAppDelegate.h; sourceTree = "<group>"; };
+		715EEEF4192063900019E0D8 /* MyTestAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTestAppDelegate.m; sourceTree = "<group>"; };
+		715EEEF7192063900019E0D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		715EEEFC192063900019E0D8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		715EEF02192063900019E0D8 /* CanlendarDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CanlendarDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		715EEF03192063900019E0D8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		715EEF0B192063900019E0D8 /* CanlendarDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CanlendarDemoTests-Info.plist"; sourceTree = "<group>"; };
+		715EEF0D192063900019E0D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		715EEF0F192063900019E0D8 /* CanlendarDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CanlendarDemoTests.m; sourceTree = "<group>"; };
+		715EEF1A192064500019E0D8 /* CanlendarIndex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CanlendarIndex.h; sourceTree = "<group>"; };
+		715EEF1B192064510019E0D8 /* CanlendarIndex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CanlendarIndex.m; sourceTree = "<group>"; };
+		71CF731D192CC70F000FDEA0 /* NSDate+String.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+String.h"; sourceTree = "<group>"; };
+		71CF731E192CC70F000FDEA0 /* NSDate+String.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+String.m"; sourceTree = "<group>"; };
+		A351DABC165D4B409216984D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		715EEEDE192063900019E0D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				715EEEE7192063900019E0D8 /* CoreGraphics.framework in Frameworks */,
+				715EEEE9192063900019E0D8 /* UIKit.framework in Frameworks */,
+				715EEEE5192063900019E0D8 /* Foundation.framework in Frameworks */,
+				8E9D989385014F61BEA1647C /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		715EEEFF192063900019E0D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				715EEF04192063900019E0D8 /* XCTest.framework in Frameworks */,
+				715EEF06192063900019E0D8 /* UIKit.framework in Frameworks */,
+				715EEF05192063900019E0D8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7150401F192B4C4900AB1917 /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				71504020192B4C7600AB1917 /* MyCalendar.h */,
+				71504021192B4C7600AB1917 /* MyCalendar.m */,
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		715EEED8192063900019E0D8 = {
+			isa = PBXGroup;
+			children = (
+				715EEEEA192063900019E0D8 /* CanlendarDemo */,
+				715EEF09192063900019E0D8 /* CanlendarDemoTests */,
+				715EEEE3192063900019E0D8 /* Frameworks */,
+				715EEEE2192063900019E0D8 /* Products */,
+				45D0F0C7E9BF4EE58F8BAE72 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		715EEEE2192063900019E0D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				715EEEE1192063900019E0D8 /* CanlendarDemo.app */,
+				715EEF02192063900019E0D8 /* CanlendarDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		715EEEE3192063900019E0D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				715EEEE4192063900019E0D8 /* Foundation.framework */,
+				715EEEE6192063900019E0D8 /* CoreGraphics.framework */,
+				715EEEE8192063900019E0D8 /* UIKit.framework */,
+				715EEF03192063900019E0D8 /* XCTest.framework */,
+				A351DABC165D4B409216984D /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		715EEEEA192063900019E0D8 /* CanlendarDemo */ = {
+			isa = PBXGroup;
+			children = (
+				715EEEF3192063900019E0D8 /* MyTestAppDelegate.h */,
+				715EEEF4192063900019E0D8 /* MyTestAppDelegate.m */,
+				715EEEF6192063900019E0D8 /* Main.storyboard */,
+				715EEF191920642E0019E0D8 /* Controller */,
+				7150401F192B4C4900AB1917 /* Logic */,
+				71CF731C192CC70F000FDEA0 /* Helper */,
+				715EEEFC192063900019E0D8 /* Images.xcassets */,
+				715EEEEB192063900019E0D8 /* Supporting Files */,
+			);
+			path = CanlendarDemo;
+			sourceTree = "<group>";
+		};
+		715EEEEB192063900019E0D8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				715EEEEC192063900019E0D8 /* CanlendarDemo-Info.plist */,
+				715EEEED192063900019E0D8 /* InfoPlist.strings */,
+				715EEEF0192063900019E0D8 /* main.m */,
+				715EEEF2192063900019E0D8 /* CanlendarDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		715EEF09192063900019E0D8 /* CanlendarDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				715EEF0F192063900019E0D8 /* CanlendarDemoTests.m */,
+				715EEF0A192063900019E0D8 /* Supporting Files */,
+			);
+			path = CanlendarDemoTests;
+			sourceTree = "<group>";
+		};
+		715EEF0A192063900019E0D8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				715EEF0B192063900019E0D8 /* CanlendarDemoTests-Info.plist */,
+				715EEF0C192063900019E0D8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		715EEF191920642E0019E0D8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				715EEF1A192064500019E0D8 /* CanlendarIndex.h */,
+				715EEF1B192064510019E0D8 /* CanlendarIndex.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		71CF731C192CC70F000FDEA0 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				71CF731D192CC70F000FDEA0 /* NSDate+String.h */,
+				71CF731E192CC70F000FDEA0 /* NSDate+String.m */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		715EEEE0192063900019E0D8 /* CanlendarDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 715EEF13192063900019E0D8 /* Build configuration list for PBXNativeTarget "CanlendarDemo" */;
+			buildPhases = (
+				9A07350C3B324953B16E738B /* Check Pods Manifest.lock */,
+				715EEEDD192063900019E0D8 /* Sources */,
+				715EEEDE192063900019E0D8 /* Frameworks */,
+				715EEEDF192063900019E0D8 /* Resources */,
+				8EFE06AFEB1743929843C21F /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CanlendarDemo;
+			productName = CanlendarDemo;
+			productReference = 715EEEE1192063900019E0D8 /* CanlendarDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		715EEF01192063900019E0D8 /* CanlendarDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 715EEF16192063900019E0D8 /* Build configuration list for PBXNativeTarget "CanlendarDemoTests" */;
+			buildPhases = (
+				715EEEFE192063900019E0D8 /* Sources */,
+				715EEEFF192063900019E0D8 /* Frameworks */,
+				715EEF00192063900019E0D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				715EEF08192063900019E0D8 /* PBXTargetDependency */,
+			);
+			name = CanlendarDemoTests;
+			productName = CanlendarDemoTests;
+			productReference = 715EEF02192063900019E0D8 /* CanlendarDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		715EEED9192063900019E0D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MyTest;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "kuler huang";
+				TargetAttributes = {
+					715EEF01192063900019E0D8 = {
+						TestTargetID = 715EEEE0192063900019E0D8;
+					};
+				};
+			};
+			buildConfigurationList = 715EEEDC192063900019E0D8 /* Build configuration list for PBXProject "CanlendarDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 715EEED8192063900019E0D8;
+			productRefGroup = 715EEEE2192063900019E0D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				715EEEE0192063900019E0D8 /* CanlendarDemo */,
+				715EEF01192063900019E0D8 /* CanlendarDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		715EEEDF192063900019E0D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				715EEEFD192063900019E0D8 /* Images.xcassets in Resources */,
+				715EEEEF192063900019E0D8 /* InfoPlist.strings in Resources */,
+				715EEEF8192063900019E0D8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		715EEF00192063900019E0D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				715EEF0E192063900019E0D8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8EFE06AFEB1743929843C21F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A07350C3B324953B16E738B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		715EEEDD192063900019E0D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				715EEEF5192063900019E0D8 /* MyTestAppDelegate.m in Sources */,
+				715EEEF1192063900019E0D8 /* main.m in Sources */,
+				715EEF1C192064510019E0D8 /* CanlendarIndex.m in Sources */,
+				71CF731F192CC70F000FDEA0 /* NSDate+String.m in Sources */,
+				71504022192B4C7600AB1917 /* MyCalendar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		715EEEFE192063900019E0D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				715EEF10192063900019E0D8 /* CanlendarDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		715EEF08192063900019E0D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 715EEEE0192063900019E0D8 /* CanlendarDemo */;
+			targetProxy = 715EEF07192063900019E0D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		715EEEED192063900019E0D8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				715EEEEE192063900019E0D8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		715EEEF6192063900019E0D8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				715EEEF7192063900019E0D8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		715EEF0C192063900019E0D8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				715EEF0D192063900019E0D8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		715EEF11192063900019E0D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		715EEF12192063900019E0D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		715EEF14192063900019E0D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45D0F0C7E9BF4EE58F8BAE72 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CanlendarDemo/CanlendarDemo-Prefix.pch";
+				INFOPLIST_FILE = "CanlendarDemo/CanlendarDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		715EEF15192063900019E0D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45D0F0C7E9BF4EE58F8BAE72 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CanlendarDemo/CanlendarDemo-Prefix.pch";
+				INFOPLIST_FILE = "CanlendarDemo/CanlendarDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		715EEF17192063900019E0D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CanlendarDemo.app/CanlendarDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CanlendarDemo/CanlendarDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CanlendarDemoTests/CanlendarDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		715EEF18192063900019E0D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CanlendarDemo.app/CanlendarDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CanlendarDemo/CanlendarDemo-Prefix.pch";
+				INFOPLIST_FILE = "CanlendarDemoTests/CanlendarDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		715EEEDC192063900019E0D8 /* Build configuration list for PBXProject "CanlendarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				715EEF11192063900019E0D8 /* Debug */,
+				715EEF12192063900019E0D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		715EEF13192063900019E0D8 /* Build configuration list for PBXNativeTarget "CanlendarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				715EEF14192063900019E0D8 /* Debug */,
+				715EEF15192063900019E0D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		715EEF16192063900019E0D8 /* Build configuration list for PBXNativeTarget "CanlendarDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				715EEF17192063900019E0D8 /* Debug */,
+				715EEF18192063900019E0D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 715EEED9192063900019E0D8 /* Project object */;
+}
